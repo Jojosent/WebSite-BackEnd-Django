@@ -1,7 +1,7 @@
 <div class="list-group">
     {% for item in categories %}
     <a href="{{ item.get_absolute_url }}" class="list-group-item list-group-item-action">{{ item.title }}
-        <span class="badge ml-5 bg-primary badge-pill">{{item.cnt}}</span>
+        <span class="badge ml-5 bg-primary badge-pill text-color-light">{{item.cnt}}</span>
 </a>
     {% endfor %}
 </div>
